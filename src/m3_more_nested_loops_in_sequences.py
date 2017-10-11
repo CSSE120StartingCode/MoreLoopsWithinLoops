@@ -3,18 +3,18 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of SEQUENCES OF SUB-SEQUENCES.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2015.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
     """ Calls the other functions to test them. """
-    test_largest_number()
-    test_largest_negative_number()
-    test_first_is_elsewhere_too()
+    run_test_largest_number()
+    run_test_largest_negative_number()
+    run_test_first_is_elsewhere_too()
 
 
-def test_largest_number():
+def run_test_largest_number():
     """ Tests the    largest_number    function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -43,7 +43,7 @@ def test_largest_number():
     answer = largest_number(([], [], []))
     print('Expected and actual are:', expected, answer)
 
-    # TODO 2 (continued): Add your ADDITIONAL test(s) here:
+    # TO DO 2 (continued): Add your ADDITIONAL test(s) here:
 
 
 def largest_number(seq_seq):
@@ -77,7 +77,7 @@ def largest_number(seq_seq):
     # ------------------------------------------------------------------
 
 
-def test_largest_negative_number():
+def run_test_largest_negative_number():
     """ Tests the    largest_negative_number    function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -124,7 +124,7 @@ def largest_negative_number(seq_seq):
     # ------------------------------------------------------------------
 
 
-def test_first_is_elsewhere_too():
+def run_test_first_is_elsewhere_too():
     """ Tests the    first_is_elsewhere_too    function. """
     # ------------------------------------------------------------------
     # We have supplied tests for you. No additional tests are required,
@@ -370,6 +370,7 @@ def first_is_elsewhere_too(seq_seq):
     #   in this problem, as doing so would defeat the goal of providing
     #   practice at loops within loops (within loops within ...)
     # ------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

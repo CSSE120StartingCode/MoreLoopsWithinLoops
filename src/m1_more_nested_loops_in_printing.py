@@ -3,21 +3,21 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of PRINTING on the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2015.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
     """ Calls the other functions to test them. """
-    test_triangle_right_justified()
-    test_triangle_upside_down()
-    test_vee()
-    test_numbers_constant_forward()
-    test_numbers_constant_backwards()
-    test_numbers_increasing_forward()
+    run_test_triangle_right_justified()
+    run_test_triangle_upside_down()
+    run_test_vee()
+    run_test_numbers_constant_forward()
+    run_test_numbers_constant_backwards()
+    run_test_numbers_increasing_forward()
 
 
-def test_triangle_right_justified():
+def run_test_triangle_right_justified():
     """ Tests the    triangle_right_justified    function. """
     print()
     print('--------------------------------------------------')
@@ -75,7 +75,7 @@ def triangle_right_justified(r):
     # ------------------------------------------------------------------
 
 
-def test_triangle_upside_down():
+def run_test_triangle_upside_down():
     """ Tests the    triangle_upside_down    function. """
     print()
     print('----------------------------------------------')
@@ -119,7 +119,7 @@ def triangle_upside_down(r):
     # ------------------------------------------------------------------
 
 
-def test_vee():
+def run_test_vee():
     """ Tests the    vee    function. """
     print()
     print('----------------------------------------------')
@@ -170,7 +170,7 @@ def vee(r):
     # ------------------------------------------------------------------
 
 
-def test_numbers_constant_forward():
+def run_test_numbers_constant_forward():
     """ Tests the    numbers_constant_forward    function. """
     print()
     print('--------------------------------------------------')
@@ -228,7 +228,7 @@ def numbers_constant_forward(r, maxnum, n):
     # ------------------------------------------------------------------
 
 
-def test_numbers_constant_backwards():
+def run_test_numbers_constant_backwards():
     """ Tests the    numbers_constant_backwards    function. """
     print()
     print('----------------------------------------------------')
@@ -270,7 +270,7 @@ def numbers_constant_backwards(r, maxnum, n):
     # ------------------------------------------------------------------
 
 
-def test_numbers_increasing_forward():
+def run_test_numbers_increasing_forward():
     """ Tests the    numbers_increasing_forward    function. """
     print()
     print('----------------------------------------------------')
@@ -320,6 +320,7 @@ def numbers_increasing_forward(r, maxnum):
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
